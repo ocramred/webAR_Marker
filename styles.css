@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #2e0066;
+    color: #f1ff97;
+  }
+  
+  .startmessage {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .click-me {
+    font-size: 48px;
+    cursor: crosshair;
+    transition: color 0.3s; /* Smooth transition for color change */
+  }
+  .click-me:hover {
+    color: #FF4081; /* Hover color for "Click me" */
+  }
+
+  #click-go {
+    font-size: 48px;
+    cursor: crosshair;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  .bottom-line {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: rgb(35, 45, 45);
+  }
+  
+  .bottom-line a {
+    color: #FFFFFF; /* White text color for "Marco Kempf" link */
+    text-decoration: none;
+  }
+  
+  .bottom-line a:hover {
+    text-decoration: underline; /* Underline on hover for "Marco Kempf" link */
+  }
+  
